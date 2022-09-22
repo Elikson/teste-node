@@ -1,0 +1,17 @@
+[ req ]
+default_md = sha256
+prompt = no
+req_extensions = req_ext
+distinguished_name = req_distinguished_name
+[ req_distinguished_name ]
+commonName = https://certificatetools.com/
+countryName = AU
+stateOrProvinceName = AM
+localityName = Manacapuru
+organizationName = Internet Widgits Pty Ltd
+organizationalUnitName = BR
+emailAddress = Eliksonbt.eks@gmail.com
+[ req_ext ]
+subjectAltName = @alt_names
+[ alt_names ]
+DNS.0 = https://certificatetools.com/
