@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "start:443": "node index443.js",
     "start-app": "node app.js",
     "start-https": "node https.js"
   },
